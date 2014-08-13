@@ -1,5 +1,4 @@
-<%@ taglib uri="http://java.sun.com/portlet_2_0" prefix="portlet" %>
-
-<portlet:defineObjects />
-
-This is the <b>Modify Welcome Greeting</b> portlet in View mode.
+ <%@ page contentType="text/html; charset=utf-8" language="java" import="java.sql.*" errorPage="" %>
+ <p style="font-size:24px; color:red;">
+   欢迎访问 www.elearn007.com 
+ </p>

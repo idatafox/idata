@@ -1,3 +1,4 @@
+ <%@ page contentType="text/html; charset=utf-8" language="java" import="java.sql.*" errorPage="" %>
 <%
 /**
  * Copyright (c) 2000-2013 Liferay, Inc. All rights reserved.
@@ -18,4 +19,4 @@
 
 <portlet:defineObjects />
 
-This is the <b>Elearn007 GreetingManager</b> portlet.
+该portlet演示了，在仅仅借助MVCPortlet类的情况下，实现help模式的启用。

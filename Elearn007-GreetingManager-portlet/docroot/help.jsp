@@ -1,21 +1,5 @@
-<%
-/**
- * Copyright (c) 2000-2013 Liferay, Inc. All rights reserved.
- *
- * This library is free software; you can redistribute it and/or modify it under
- * the terms of the GNU Lesser General Public License as published by the Free
- * Software Foundation; either version 2.1 of the License, or (at your option)
- * any later version.
- *
- * This library is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more
- * details.
- */
-%>
-
-<%@ taglib uri="http://java.sun.com/portlet_2_0" prefix="portlet" %>
-
-<portlet:defineObjects />
-
-This is the <b>Elearn007 GreetingManager</b> portlet.
+ <%@ page contentType="text/html; charset=utf-8" language="java" import="java.sql.*" errorPage="" %>
+ 帮助文档
+ 
+    如果你在学习elearn007.com视频教程有困难的时候，可以加入elearn007.com的官方微信，你可以在微信上进行提交问题，我们会针对你的问题采取
+    邮件回复，问题解答录制成视频，和在线交流等几种形式。
