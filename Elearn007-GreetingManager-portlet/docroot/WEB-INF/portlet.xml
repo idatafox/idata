@@ -16,6 +16,7 @@
 		<expiration-cache>0</expiration-cache>
 		<supports>
 			<mime-type>text/html</mime-type>
+			<portlet-mode>help</portlet-mode>
 		</supports>
 		<portlet-info>
 			<title>Elearn007 GreetingManager</title>
