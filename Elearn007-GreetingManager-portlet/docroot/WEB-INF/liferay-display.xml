@@ -5,5 +5,8 @@
 	<category name="category.sample">
 		<portlet id="Elearn007-GreetingManager" />
 		<portlet id="modify-welcome-greeting"></portlet>
+		<portlet id="pass-value-simple"></portlet>
+		<portlet id="test-copy-parameters"></portlet>
+		<portlet id="push-value-through-session"></portlet>
 	</category>
 </display>

@@ -20,6 +20,38 @@
 			modify-welcome-greeting-portlet
 		</css-class-wrapper>
 	</portlet>
+	<portlet>
+		<portlet-name>pass-value-simple</portlet-name>
+		<icon>/icon.png</icon>
+		<header-portlet-css>/css/main.css</header-portlet-css>
+		<footer-portlet-javascript>
+			/js/main.js
+		</footer-portlet-javascript>
+		<css-class-wrapper>pass-value-simple-portlet</css-class-wrapper>
+	</portlet>
+	<portlet>
+		<portlet-name>test-copy-parameters</portlet-name>
+		<icon>/icon.png</icon>
+		<instanceable>true</instanceable> 
+		<header-portlet-css>/css/main.css</header-portlet-css>
+		<footer-portlet-javascript>
+			/js/main.js
+		</footer-portlet-javascript>
+		<css-class-wrapper>
+			test-copy-parameters-portlet
+		</css-class-wrapper>
+	</portlet>
+	<portlet>
+		<portlet-name>push-value-through-session</portlet-name>
+		<icon>/icon.png</icon>
+		<header-portlet-css>/css/main.css</header-portlet-css>
+		<footer-portlet-javascript>
+			/js/main.js
+		</footer-portlet-javascript>
+		<css-class-wrapper>
+			push-value-through-session-portlet
+		</css-class-wrapper>
+	</portlet>
 	<role-mapper>
 		<role-name>administrator</role-name>
 		<role-link>Administrator</role-link>
