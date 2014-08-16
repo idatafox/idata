@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+
+<portlet-app xmlns="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd" version="2.0">
+	<portlet>
+		<portlet-name>Elearn007LocalizeDevelop</portlet-name>
+		<display-name>Elearn007LocalizeDevelop</display-name>
+		<portlet-class>com.liferay.util.bridges.mvc.MVCPortlet</portlet-class>
+		<init-param>
+			<name>view-template</name>
+			<value>/view.jsp</value>
+		</init-param>
+		<expiration-cache>0</expiration-cache>
+		<supports>
+			<mime-type>text/html</mime-type>
+		</supports>
+	   <resource-bundle>content.Language</resource-bundle>
+		<portlet-info>
+			<title>Elearn007LocalizeDevelop</title>
+			<short-title>Elearn007LocalizeDevelop</short-title>
+			<keywords>Elearn007LocalizeDevelop</keywords>
+		</portlet-info>
+		<security-role-ref>
+			<role-name>administrator</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>guest</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>power-user</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>user</role-name>
+		</security-role-ref>
+	</portlet>
+	<portlet>
+		<portlet-name>localize-converter</portlet-name>
+		<display-name>Localize Converter</display-name>
+		<portlet-class>
+			com.elearn007.liferay.teach.portlet.LocalizeConverter
+		</portlet-class>
+		<init-param>
+			<name>view-template</name>
+			<value>/html/localizeconverter/view.jsp</value>
+		</init-param>
+		<expiration-cache>0</expiration-cache>
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>view</portlet-mode>
+		</supports>
+		<resource-bundle>content.localizeconverter.Language</resource-bundle>
+		<portlet-info>
+			<title>Localize Converter</title>
+			<short-title>Localize Converter</short-title>
+			<keywords></keywords>
+		</portlet-info>
+		<security-role-ref>
+			<role-name>administrator</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>guest</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>power-user</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>user</role-name>
+		</security-role-ref>
+	</portlet>
+	<portlet>
+		<portlet-name>display-in-control-panel</portlet-name>
+		<display-name>Display In Control Panel</display-name>
+		<portlet-class>
+			com.elearn007.liferay.teach.portlet.DisplayInControlPanel
+		</portlet-class>
+		<init-param>
+			<name>view-template</name>
+			<value>/html/displayincontrolpanel/view.jsp</value>
+		</init-param>
+		<expiration-cache>0</expiration-cache>
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>view</portlet-mode>
+		</supports>
+		<resource-bundle>content.displayincontrolpanel.Language</resource-bundle>
+		<portlet-info>
+			<title>Display In Control Panel</title>
+			<short-title>Display In Control Panel</short-title>
+			<keywords></keywords>
+		</portlet-info>
+		<security-role-ref>
+			<role-name>administrator</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>guest</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>power-user</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>user</role-name>
+		</security-role-ref>
+	</portlet>
+</portlet-app>
