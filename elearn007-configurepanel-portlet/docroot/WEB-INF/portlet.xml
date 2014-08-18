@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+
+<portlet-app xmlns="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd" version="2.0">
+	<portlet>
+		<portlet-name>elearn007-configurepanel</portlet-name>
+		<display-name>Elearn007 Configurepanel</display-name>
+		<portlet-class>com.liferay.util.bridges.mvc.MVCPortlet</portlet-class>
+		<init-param>
+			<name>view-template</name>
+			<value>/view.jsp</value>
+		</init-param>
+		<expiration-cache>0</expiration-cache>
+		<supports>
+			<mime-type>text/html</mime-type>
+		</supports>
+		<portlet-info>
+			<title>Elearn007 Configurepanel</title>
+			<short-title>Elearn007 Configurepanel</short-title>
+			<keywords>Elearn007 Configurepanel</keywords>
+		</portlet-info>
+		<security-role-ref>
+			<role-name>administrator</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>guest</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>power-user</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>user</role-name>
+		</security-role-ref>
+	</portlet>
+	<portlet>
+		<portlet-name>init-configure-controller</portlet-name>
+		<display-name>Init Configure Controller</display-name>
+		<portlet-class>
+			com.elearn007.portlet.teach.InitConfigureController
+		</portlet-class>
+		<init-param>
+			<name>view-template</name>
+			<value>/html/initconfigurecontroller/view.jsp</value>
+		</init-param>
+		
+		<!-- modified by jerry 2014.8.17 -->
+		 <init-param>
+		     <name>config-template</name>
+		     <value>/html/initconfigurecontroller/configuration.jsp</value>
+         </init-param>
+         
+		<expiration-cache>0</expiration-cache>
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>view</portlet-mode>
+			
+		</supports>
+		<portlet-info>
+			<title>Init Configure Controller</title>
+			<short-title>Init Configure Controller</short-title>
+			<keywords></keywords>
+		</portlet-info>
+		<security-role-ref>
+			<role-name>administrator</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>guest</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>power-user</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>user</role-name>
+		</security-role-ref>
+	</portlet>
+</portlet-app>
