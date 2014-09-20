@@ -18,6 +18,8 @@ public class UserProfileManager extends MVCPortlet{
     			prefs.setValue("greeting", greeting);
     			prefs.store();
     		}
+    		
+    		
     		super.processAction(actionRequest, actionResponse);
     		
     	}
@@ -25,5 +27,11 @@ public class UserProfileManager extends MVCPortlet{
     	{
     		 System.out.println("UserProfileManager error:"+e.getMessage());
     	}
+    }
+    
+    //实现help模式
+    public void doHelp(ActionRequest actionRequest,ActionResponse actionResponse)
+    {
+    	  System.out.println("正在执行help模式....");
     }
 }

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE display PUBLIC "-//Liferay//DTD Display 6.2.0//EN" "http://www.liferay.com/dtd/liferay-display_6_2_0.dtd">
+
+<display>
+	<category name="category.sample">
+		<portlet id="Elearn007-TestShareData" />
+		<portlet id="test-session-transfer-data"></portlet>
+		<portlet id="s-test-session-data-transfer"></portlet>
+		<portlet id="test-share-session-data"></portlet>
+		<portlet id="transfer-data-by-session"></portlet>
+		<portlet id="transfer-data-from-other-one"></portlet>
+		<portlet id="transfer-datay-by"></portlet>
+		<portlet id="transer-data-by-portlet-from-other-one"></portlet>
+	</category>
+</display>

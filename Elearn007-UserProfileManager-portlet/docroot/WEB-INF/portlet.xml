@@ -9,14 +9,132 @@
 			<name>view-template</name>
 			<value>/view.jsp</value>
 		</init-param>
+		<init-param>
+			<name>help-template</name>
+			<value>/help.jsp</value>
+		</init-param>
 		<expiration-cache>0</expiration-cache>
 		<supports>
 			<mime-type>text/html</mime-type>
+			<portlet-mode>view</portlet-mode>
+			<portlet-mode>help</portlet-mode>
 		</supports>
 		<portlet-info>
 			<title>Elearn007 UserProfileManager</title>
 			<short-title>Elearn007 UserProfileManager</short-title>
 			<keywords>Elearn007 UserProfileManager</keywords>
+		</portlet-info>
+		<security-role-ref>
+			<role-name>administrator</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>guest</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>power-user</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>user</role-name>
+		</security-role-ref>
+	</portlet>
+	<portlet>
+		<portlet-name>modi-user-profile</portlet-name>
+		<display-name>Modi User Profile</display-name>
+		<portlet-class>
+			com.elearn007.user.common.ModiUserProfilePortlet
+		</portlet-class>
+		<init-param>
+			<name>view-template</name>
+			<value>/html/modiuserprofile/view.jsp</value>
+		</init-param>
+		<init-param>
+			<name>help-template</name>
+			<value>/html/modiuserprofile/help.jsp</value>
+		</init-param>
+		<expiration-cache>0</expiration-cache>
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>view</portlet-mode>
+			<portlet-mode>help</portlet-mode>
+		</supports>
+		<portlet-info>
+			<title>Modi User Profile</title>
+			<short-title>Modi User Profile</short-title>
+			<keywords></keywords>
+		</portlet-info>
+		<security-role-ref>
+			<role-name>administrator</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>guest</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>power-user</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>user</role-name>
+		</security-role-ref>
+	</portlet>
+	<portlet>
+		<portlet-name>modi-user-parameter-copy</portlet-name>
+		<display-name>Modi User Parameter Copy</display-name>
+		<portlet-class>
+			com.elearn007.user.common.ModiUserParameterCopyPortlet
+		</portlet-class>
+		 <init-param>
+			<name>copy-request-parameters</name>
+			<value>true</value>
+		</init-param>
+		<init-param>
+			<name>view-template</name>
+			<value>/html/modiuserparametercopy/view.jsp</value>   
+		</init-param>
+	
+		<expiration-cache>0</expiration-cache>
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>view</portlet-mode>
+			
+		</supports>
+		<resource-bundle>content.Language</resource-bundle>
+		
+		<portlet-info>
+			<title>Modi User Parameter Copy</title>
+			<short-title>Modi User Parameter Copy</short-title>
+			<keywords></keywords>
+		</portlet-info>
+		
+		
+		<security-role-ref>
+			<role-name>administrator</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>guest</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>power-user</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>user</role-name>
+		</security-role-ref>
+	</portlet>
+	<portlet>
+		<portlet-name>elearn007-greeting</portlet-name>
+		<display-name>Elearn007 Greeting</display-name>
+		<portlet-class>com.test.Elearn007Greeting</portlet-class>
+		<init-param>
+			<name>view-template</name>
+			<value>/html/elearn007greeting/view.jsp</value>
+		</init-param>
+		<expiration-cache>0</expiration-cache>
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>view</portlet-mode>
+		</supports>
+		<portlet-info>
+			<title>Elearn007 Greeting</title>
+			<short-title>Elearn007 Greeting</short-title>
+			<keywords></keywords>
 		</portlet-info>
 		<security-role-ref>
 			<role-name>administrator</role-name>

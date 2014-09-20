@@ -6,6 +6,7 @@ import javax.portlet.PortletConfig;
 import javax.portlet.PortletPreferences;
 
 import com.liferay.portal.kernel.portlet.DefaultConfigurationAction;
+
 public class ConfigureActionController extends DefaultConfigurationAction{
 	
 	public void processAction( PortletConfig portletConfig, 

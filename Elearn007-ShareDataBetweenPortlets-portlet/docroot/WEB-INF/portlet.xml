@@ -1,0 +1,377 @@
+<?xml version="1.0"?>
+
+<portlet-app xmlns="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd" version="2.0">
+	<portlet>
+		<portlet-name>Elearn007-ShareDataBetweenPortlets</portlet-name>
+		<display-name>Elearn007 ShareDataBetweenPortlets</display-name>
+		<portlet-class>com.liferay.util.bridges.mvc.MVCPortlet</portlet-class>
+		<init-param>
+			<name>view-template</name>
+			<value>/view.jsp</value>
+		</init-param>
+		<expiration-cache>0</expiration-cache>
+		<supports>
+			<mime-type>text/html</mime-type>
+		</supports>
+		<portlet-info>
+			<title>Elearn007 ShareDataBetweenPortlets</title>
+			<short-title>Elearn007 ShareDataBetweenPortlets</short-title>
+			<keywords>Elearn007 ShareDataBetweenPortlets</keywords>
+		</portlet-info>
+		<security-role-ref>
+			<role-name>administrator</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>guest</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>power-user</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>user</role-name>
+		</security-role-ref>
+	</portlet>
+	<portlet>
+		<portlet-name>sender-of-session</portlet-name>
+		<display-name>Sender Of Session</display-name>
+		<portlet-class>
+			com.elearn007.liferay.teach.sharedata.SenderOfSessionPortlet
+		</portlet-class>
+		<init-param>
+			<name>view-template</name>
+			<value>/html/senderofsession/view.jsp</value>
+		</init-param>
+		<expiration-cache>0</expiration-cache>
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>view</portlet-mode>
+		</supports>
+		<portlet-info>
+			<title>Sender Of Session</title>
+			<short-title>Sender Of Session</short-title>
+			<keywords></keywords>
+		</portlet-info>
+		<security-role-ref>
+			<role-name>administrator</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>guest</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>power-user</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>user</role-name>
+		</security-role-ref>
+	</portlet>
+	<portlet>
+		<portlet-name>sub-scriber-of-session</portlet-name>
+		<display-name>Sub Scriber Of Session</display-name>
+		<portlet-class>
+			com.elearn007.liferay.teach.sharedata.SubScriberOfSessionPortlet
+		</portlet-class>
+		<init-param>
+			<name>view-template</name>
+			<value>/html/subscriberofsession/view.jsp</value>
+		</init-param>
+		<expiration-cache>0</expiration-cache>
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>view</portlet-mode>
+		</supports>
+		<portlet-info>
+			<title>Sub Scriber Of Session</title>
+			<short-title>Sub Scriber Of Session</short-title>
+			<keywords></keywords>
+		</portlet-info>
+		<security-role-ref>
+			<role-name>administrator</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>guest</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>power-user</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>user</role-name>
+		</security-role-ref>
+	</portlet>
+	<portlet>
+		<portlet-name>sender-of-portlet-session</portlet-name>
+		<display-name>Sender Of Portlet Session</display-name>
+		<portlet-class>
+			com.elearn007.liferay.teach.sharedata.SenderOfPortletSessionPortlet
+		</portlet-class>
+		<init-param>
+			<name>view-template</name>
+			<value>/html/senderofportletsession/view.jsp</value>
+		</init-param>
+		<expiration-cache>0</expiration-cache>
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>view</portlet-mode>
+		</supports>
+		<portlet-info>
+			<title>Sender Of Portlet Session</title>
+			<short-title>Sender Of Portlet Session</short-title>
+			<keywords></keywords>
+		</portlet-info>
+		<security-role-ref>
+			<role-name>administrator</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>guest</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>power-user</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>user</role-name>
+		</security-role-ref>
+	</portlet>
+	<portlet>
+		<portlet-name>sub-scriber-of-portlet-session</portlet-name>
+		<display-name>Sub Scriber Of Portlet Session</display-name>
+		<portlet-class>
+			com.elearn007.liferay.teach.sharedata.SubScriberOfPortletSessionPortlet
+		</portlet-class>
+		<init-param>
+			<name>view-template</name>
+			<value>/html/subscriberofportletsession/view.jsp</value>
+		</init-param>
+		<expiration-cache>0</expiration-cache>
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>view</portlet-mode>
+		</supports>
+		<portlet-info>
+			<title>Sub Scriber Of Portlet Session</title>
+			<short-title>Sub Scriber Of Portlet Session</short-title>
+			<keywords></keywords>
+		</portlet-info>
+		<security-role-ref>
+			<role-name>administrator</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>guest</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>power-user</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>user</role-name>
+		</security-role-ref>
+	</portlet>
+	<portlet>
+		<portlet-name>
+			publisher-with-public-render-parameter
+		</portlet-name>
+		<display-name>
+			Publisher With Public Render Parameter
+		</display-name>
+		<portlet-class>
+			com.elearn007.liferay.teach.sharedata.PublisherWithPublicRenderParameterPortlet
+		</portlet-class>
+		<init-param>
+			<name>view-template</name>
+			<value>
+				/html/publisherwithpublicrenderparameter/view.jsp
+			</value>
+		</init-param>
+		<expiration-cache>0</expiration-cache>
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>view</portlet-mode>
+		</supports>
+		<portlet-info>
+			<title>Publisher With Public Render Parameter</title>
+			<short-title>
+				Publisher With Public Render Parameter
+			</short-title>
+			<keywords></keywords>
+		</portlet-info>
+		<security-role-ref>
+			<role-name>administrator</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>guest</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>power-user</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>user</role-name>
+		</security-role-ref>
+		
+		<supported-public-render-parameter>title</supported-public-render-parameter>
+		
+	</portlet>
+	
+	
+	<portlet>
+		<portlet-name>
+			receiver-with-public-render-parameter
+		</portlet-name>
+		<display-name>
+			Receiver With Public Render Parameter
+		</display-name>
+		<portlet-class>
+			com.elearn007.liferay.teach.sharedata.ReceiverWithPublicRenderParameterPortlet
+		</portlet-class>
+		<init-param>
+			<name>view-template</name>
+			<value>
+				/html/receiverwithpublicrenderparameter/view.jsp
+			</value>
+		</init-param>
+		<expiration-cache>0</expiration-cache>
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>view</portlet-mode>
+		</supports>
+		<portlet-info>
+			<title>Receiver With Public Render Parameter</title>
+			<short-title>
+				Receiver With Public Render Parameter
+			</short-title>
+			<keywords></keywords>
+		</portlet-info>
+		<security-role-ref>
+			<role-name>administrator</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>guest</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>power-user</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>user</role-name>
+		</security-role-ref>
+		<supported-public-render-parameter>title</supported-public-render-parameter>
+	</portlet>
+
+    
+	<portlet>
+		<portlet-name>event-sender-for-pass-data</portlet-name>
+		<display-name>Event Sender For Pass Data</display-name>
+		<portlet-class>
+			com.elearn007.liferay.teach.sharedata.EventSenderForPassData
+		</portlet-class>
+		<init-param>
+			<name>view-template</name>
+			<value>/html/eventsenderforpassdata/view.jsp</value>
+		</init-param>
+		<expiration-cache>0</expiration-cache>
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>view</portlet-mode>
+		</supports>
+		<portlet-info>
+			<title>Event Sender For Pass Data</title>
+			<short-title>Event Sender For Pass Data</short-title>
+			<keywords></keywords>
+		</portlet-info>
+		<security-role-ref>
+			<role-name>administrator</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>guest</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>power-user</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>user</role-name>
+		</security-role-ref>
+		
+		<!-- edited by elearn007.com 2014.8  event demo-->
+		<supported-publishing-event xmlns:x='http://elearn007.com'>
+                <qname>x:webCastDescription</qname>
+         </supported-publishing-event>
+		
+	</portlet>
+	<portlet>
+		<portlet-name>event-receiver-for-pass-data</portlet-name>
+		<display-name>Event Receiver For Pass Data</display-name>
+		<portlet-class>
+			com.elearn007.liferay.teach.sharedata.EventReceiverForPassData
+		</portlet-class>
+		<init-param>
+			<name>view-template</name>
+			<value>/html/eventreceiverforpassdata/view.jsp</value>
+		</init-param>
+		<expiration-cache>0</expiration-cache>
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>view</portlet-mode>
+		</supports>
+		<portlet-info>
+			<title>Event Receiver For Pass Data</title>
+			<short-title>Event Receiver For Pass Data</short-title>
+			<keywords></keywords>
+		</portlet-info>
+		<security-role-ref>
+			<role-name>administrator</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>guest</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>power-user</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>user</role-name>
+		</security-role-ref>
+	</portlet>
+	
+	 <!--  
+	  <public-render-parameter>
+        <identifier>title</identifier>
+        <qname xmlns:x="http://www.elearn007.com/liferayteach/">x:title</qname>
+      </public-render-parameter>
+     -->
+      
+      <!-- edited by elearn007.com event demo -->
+      <portlet>
+      	<portlet-name>test-subscriber-of-session</portlet-name>
+      	<display-name>Test Subscriber Of Session</display-name>
+      	<portlet-class>
+      		com.elearn007.liferay.teach.sharedata.TestSubscriberOfSessionPortlet
+      	</portlet-class>
+      	<init-param>
+      		<name>view-template</name>
+      		<value>/html/testsubscriberofsession/view.jsp</value>
+      	</init-param>
+      	<expiration-cache>0</expiration-cache>
+      	<supports>
+      		<mime-type>text/html</mime-type>
+      		<portlet-mode>view</portlet-mode>
+      	</supports>
+      	<portlet-info>
+      		<title>Test Subscriber Of Session</title>
+      		<short-title>Test Subscriber Of Session</short-title>
+      		<keywords></keywords>
+      	</portlet-info>
+      	<security-role-ref>
+      		<role-name>administrator</role-name>
+      	</security-role-ref>
+      	<security-role-ref>
+      		<role-name>guest</role-name>
+      	</security-role-ref>
+      	<security-role-ref>
+      		<role-name>power-user</role-name>
+      	</security-role-ref>
+      	<security-role-ref>
+      		<role-name>user</role-name>
+      	</security-role-ref>
+      </portlet>
+      <event-definition  xmlns:x="http://elearn007.com">
+            <qname>x:webCastDescription</qname>
+            <value-type>java.lang.String</value-type>
+        </event-definition>
+
+
+
+</portlet-app>

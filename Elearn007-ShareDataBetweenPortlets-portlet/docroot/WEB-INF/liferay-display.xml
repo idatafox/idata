@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE display PUBLIC "-//Liferay//DTD Display 6.2.0//EN" "http://www.liferay.com/dtd/liferay-display_6_2_0.dtd">
+
+<display>
+	<category name="category.sample">
+		<portlet id="Elearn007-ShareDataBetweenPortlets" />
+		<portlet id="sender-of-session"></portlet>
+		<portlet id="sub-scriber-of-session"></portlet>
+		<portlet id="sender-of-portlet-session"></portlet>
+		<portlet id="sub-scriber-of-portlet-session"></portlet>
+		<portlet id="publisher-with-public-render-parameter"></portlet>
+		<portlet id="receiver-with-public-render-parameter"></portlet>
+		<portlet id="event-sender-for-pass-data"></portlet>
+		<portlet id="event-receiver-for-pass-data"></portlet>
+		<portlet id="test-subscriber-of-session"></portlet>
+	</category>
+</display>

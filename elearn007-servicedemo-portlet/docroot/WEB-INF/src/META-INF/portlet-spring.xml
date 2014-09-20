@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-destroy-method="destroy" default-init-method="afterPropertiesSet" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	<bean id="com.elearn007.services.teach.service.EventLocalService" class="com.elearn007.services.teach.service.impl.EventLocalServiceImpl" />
+	<bean id="com.elearn007.services.teach.service.EventService" class="com.elearn007.services.teach.service.impl.EventServiceImpl" />
+	<bean id="com.elearn007.services.teach.service.persistence.EventPersistence" class="com.elearn007.services.teach.service.persistence.EventPersistenceImpl" parent="basePersistence" />
+	<bean id="com.elearn007.services.teach.service.LocationLocalService" class="com.elearn007.services.teach.service.impl.LocationLocalServiceImpl" />
+	<bean id="com.elearn007.services.teach.service.LocationService" class="com.elearn007.services.teach.service.impl.LocationServiceImpl" />
+	<bean id="com.elearn007.services.teach.service.persistence.LocationPersistence" class="com.elearn007.services.teach.service.persistence.LocationPersistenceImpl" parent="basePersistence" />
+</beans>

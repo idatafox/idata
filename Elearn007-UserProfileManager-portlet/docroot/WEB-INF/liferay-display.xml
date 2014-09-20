@@ -4,5 +4,8 @@
 <display>
 	<category name="category.sample">
 		<portlet id="Elearn007-UserProfileManager" />
+		<portlet id="modi-user-profile"></portlet>
+		<portlet id="modi-user-parameter-copy"></portlet>
+		<portlet id="elearn007-greeting"></portlet>
 	</category>
 </display>

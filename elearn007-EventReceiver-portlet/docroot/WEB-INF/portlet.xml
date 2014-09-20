@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+
+<portlet-app xmlns="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd" version="2.0">
+	<portlet>
+		<portlet-name>elearn007-EventReceiver</portlet-name>
+		<display-name>Elearn007 EventReceiver</display-name>
+		<portlet-class>com.liferay.util.bridges.mvc.MVCPortlet</portlet-class>
+		<init-param>
+			<name>view-template</name>
+			<value>/view.jsp</value>
+		</init-param>
+		<expiration-cache>0</expiration-cache>
+		<supports>
+			<mime-type>text/html</mime-type>
+		</supports>
+		<portlet-info>
+			<title>Elearn007 EventReceiver</title>
+			<short-title>Elearn007 EventReceiver</short-title>
+			<keywords>Elearn007 EventReceiver</keywords>
+		</portlet-info>
+		<security-role-ref>
+			<role-name>administrator</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>guest</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>power-user</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>user</role-name>
+		</security-role-ref>
+	</portlet>
+	<portlet>
+		<portlet-name>receiver-event</portlet-name>
+		<display-name>Receiver Event</display-name>
+		<portlet-class>
+			com.elearn007.portlet.teach.ReceiverEvent
+		</portlet-class>
+		<init-param>
+			<name>view-template</name>
+			<value>/html/receiverevent/view.jsp</value>
+		</init-param>
+		<expiration-cache>0</expiration-cache>
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>view</portlet-mode>
+		</supports>
+		<portlet-info>
+			<title>Receiver Event</title>
+			<short-title>Receiver Event</short-title>
+			<keywords></keywords>
+		</portlet-info>
+		<security-role-ref>
+			<role-name>administrator</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>guest</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>power-user</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>user</role-name>
+		</security-role-ref>
+		
+		 <supported-processing-event xmlns:x='http://elearn007.com'>
+                <qname>x:webCastDescription</qname>
+         </supported-processing-event>
+        
+         
+	</portlet>
+
+
+	<portlet>
+		<portlet-name>test-receiver-event</portlet-name>
+		<display-name>Test Receiver Event</display-name>
+		<portlet-class>
+			com.elearn007.portlet.teach.TestReceiverEventPortlet
+		</portlet-class>
+		<init-param>
+			<name>view-template</name>
+			<value>/html/testreceiverevent/view.jsp</value>
+		</init-param>
+		<expiration-cache>0</expiration-cache>
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>view</portlet-mode>
+		</supports>
+		<portlet-info>
+			<title>Test Receiver Event</title>
+			<short-title>Test Receiver Event</short-title>
+			<keywords></keywords>
+		</portlet-info>
+		<security-role-ref>
+			<role-name>administrator</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>guest</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>power-user</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>user</role-name>
+		</security-role-ref>
+	</portlet>
+	
+	<event-definition xmlns:x='http://elearn007.com'>
+            <qname>x:webCastDescription</qname>
+            <value-type>java.lang.String</value-type>
+        </event-definition>
+       
+        
+
+</portlet-app>

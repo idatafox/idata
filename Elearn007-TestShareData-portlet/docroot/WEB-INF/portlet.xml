@@ -1,0 +1,273 @@
+<?xml version="1.0"?>
+
+<portlet-app xmlns="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd" version="2.0">
+	<portlet>
+		<portlet-name>Elearn007-TestShareData</portlet-name>
+		<display-name>Elearn007 TestShareData</display-name>
+		<portlet-class>com.liferay.util.bridges.mvc.MVCPortlet</portlet-class>
+		<init-param>
+			<name>view-template</name>
+			<value>/view.jsp</value>
+		</init-param>
+		<expiration-cache>0</expiration-cache>
+		<supports>
+			<mime-type>text/html</mime-type>
+		</supports>
+		<portlet-info>
+			<title>Elearn007 TestShareData</title>
+			<short-title>Elearn007 TestShareData</short-title>
+			<keywords>Elearn007 TestShareData</keywords>
+		</portlet-info>
+		<security-role-ref>
+			<role-name>administrator</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>guest</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>power-user</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>user</role-name>
+		</security-role-ref>
+	</portlet>
+	<portlet>
+		<portlet-name>test-session-transfer-data</portlet-name>
+		<display-name>Test Session Transfer Data</display-name>
+		<portlet-class>
+			com.elearn007.liferay.test.transferdata.TestSessionTransferData
+		</portlet-class>
+		<init-param>
+			<name>view-template</name>
+			<value>/html/testsessiontransferdata/view.jsp</value>
+		</init-param>
+		<expiration-cache>0</expiration-cache>
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>view</portlet-mode>
+		</supports>
+		<portlet-info>
+			<title>Test Session Transfer Data</title>
+			<short-title>Test Session Transfer Data</short-title>
+			<keywords></keywords>
+		</portlet-info>
+		<security-role-ref>
+			<role-name>administrator</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>guest</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>power-user</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>user</role-name>
+		</security-role-ref>
+	</portlet>
+	<portlet>
+		<portlet-name>s-test-session-data-transfer</portlet-name>
+		<display-name>S Test Session Data Transfer</display-name>
+		<portlet-class>
+			com.elearn007.liferay.teach.session.STestSessionDataTransfer
+		</portlet-class>
+		<init-param>
+			<name>view-template</name>
+			<value>/html/stestsessiondatatransfer/view.jsp</value>
+		</init-param>
+		<expiration-cache>0</expiration-cache>
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>view</portlet-mode>
+		</supports>
+		<portlet-info>
+			<title>S Test Session Data Transfer</title>
+			<short-title>S Test Session Data Transfer</short-title>
+			<keywords></keywords>
+		</portlet-info>
+		<security-role-ref>
+			<role-name>administrator</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>guest</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>power-user</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>user</role-name>
+		</security-role-ref>
+	</portlet>
+	<portlet>
+		<portlet-name>test-share-session-data</portlet-name>
+		<display-name>Test Share Session Data</display-name>
+		<portlet-class>
+			com.elearn007.liferay.teach.session.TestShareSessionData
+		</portlet-class>
+		<init-param>
+			<name>view-template</name>
+			<value>/html/testsharesessiondata/view.jsp</value>
+		</init-param>
+		<expiration-cache>0</expiration-cache>
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>view</portlet-mode>
+		</supports>
+		<portlet-info>
+			<title>Test Share Session Data</title>
+			<short-title>Test Share Session Data</short-title>
+			<keywords></keywords>
+		</portlet-info>
+		<security-role-ref>
+			<role-name>administrator</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>guest</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>power-user</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>user</role-name>
+		</security-role-ref>
+	</portlet>
+	<portlet>
+		<portlet-name>transfer-data-by-session</portlet-name>
+		<display-name>Transfer Data By Session</display-name>
+		<portlet-class>
+			com.elearn007.liferay.teach.session.TransferDataBySession
+		</portlet-class>
+		<init-param>
+			<name>view-template</name>
+			<value>/html/transferdatabysession/view.jsp</value>
+		</init-param>
+		<expiration-cache>0</expiration-cache>
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>view</portlet-mode>
+		</supports>
+		<portlet-info>
+			<title>Transfer Data By Session</title>
+			<short-title>Transfer Data By Session</short-title>
+			<keywords></keywords>
+		</portlet-info>
+		<security-role-ref>
+			<role-name>administrator</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>guest</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>power-user</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>user</role-name>
+		</security-role-ref>
+	</portlet>
+	<portlet>
+		<portlet-name>transfer-data-from-other-one</portlet-name>
+		<display-name>Transfer Data From Other One</display-name>
+		<portlet-class>
+			com.elearn007.liferay.teach.session.TransferDataFromOtherOne
+		</portlet-class>
+		<init-param>
+			<name>view-template</name>
+			<value>/html/transferdatafromotherone/view.jsp</value>
+		</init-param>
+		<expiration-cache>0</expiration-cache>
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>view</portlet-mode>
+		</supports>
+		<portlet-info>
+			<title>Transfer Data From Other One</title>
+			<short-title>Transfer Data From Other One</short-title>
+			<keywords></keywords>
+		</portlet-info>
+		<security-role-ref>
+			<role-name>administrator</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>guest</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>power-user</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>user</role-name>
+		</security-role-ref>
+	</portlet>
+	<portlet>
+		<portlet-name>transfer-datay-by</portlet-name>
+		<display-name>Transfer Datay By</display-name>
+		<portlet-class>
+			com.elearn007.liferay.teach.session.TransferDatayByPortlet
+		</portlet-class>
+		<init-param>
+			<name>view-template</name>
+			<value>/html/transferdatayby/view.jsp</value>
+		</init-param>
+		<expiration-cache>0</expiration-cache>
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>view</portlet-mode>
+		</supports>
+		<portlet-info>
+			<title>Transfer Datay By</title>
+			<short-title>Transfer Datay By</short-title>
+			<keywords></keywords>
+		</portlet-info>
+		<security-role-ref>
+			<role-name>administrator</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>guest</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>power-user</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>user</role-name>
+		</security-role-ref>
+	</portlet>
+	<portlet>
+		<portlet-name>
+			transer-data-by-portlet-from-other-one
+		</portlet-name>
+		<display-name>
+			Transer Data By Portlet From Other One
+		</display-name>
+		<portlet-class>
+			com.elearn007.liferay.teach.session.TranserDataByPortletFromOtherOne
+		</portlet-class>
+		<init-param>
+			<name>view-template</name>
+			<value>
+				/html/transerdatabyportletfromotherone/view.jsp
+			</value>
+		</init-param>
+		<expiration-cache>0</expiration-cache>
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>view</portlet-mode>
+		</supports>
+		<portlet-info>
+			<title>Transer Data By Portlet From Other One</title>
+			<short-title>
+				Transer Data By Portlet From Other One
+			</short-title>
+			<keywords></keywords>
+		</portlet-info>
+		<security-role-ref>
+			<role-name>administrator</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>guest</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>power-user</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>user</role-name>
+		</security-role-ref>
+	</portlet>
+</portlet-app>

@@ -5,5 +5,6 @@
 	<category name="category.sample">
 		<portlet id="elearn007-configurepanel" />
 		<portlet id="init-configure-controller"></portlet>
+		<portlet id="test-configure"></portlet>
 	</category>
 </display>

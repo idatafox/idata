@@ -1,0 +1,144 @@
+<?xml version="1.0"?>
+<!DOCTYPE liferay-portlet-app PUBLIC "-//Liferay//DTD Portlet Application 6.2.0//EN" "http://www.liferay.com/dtd/liferay-portlet-app_6_2_0.dtd">
+
+<liferay-portlet-app>
+	<portlet>
+		<portlet-name>elearn007-endpointTransferData</portlet-name>
+		<icon>/icon.png</icon>
+		<header-portlet-css>/css/main.css</header-portlet-css>
+		<footer-portlet-javascript>/js/main.js</footer-portlet-javascript>
+		<css-class-wrapper>elearn007-endpointTransferData-portlet</css-class-wrapper>
+	</portlet>
+	<portlet>
+		<portlet-name>publisher</portlet-name>
+		<icon>/icon.png</icon>
+		<header-portlet-css>/css/main.css</header-portlet-css>
+		<footer-portlet-javascript>
+			/js/main.js
+		</footer-portlet-javascript>
+		<css-class-wrapper>publisher-portlet</css-class-wrapper>
+	</portlet>
+	<portlet>
+		<portlet-name>subscriber</portlet-name>
+		<icon>/icon.png</icon>
+		<header-portlet-css>/css/main.css</header-portlet-css>
+		<footer-portlet-javascript>
+			/js/main.js
+		</footer-portlet-javascript>
+		<css-class-wrapper>subscriber-portlet</css-class-wrapper>
+	</portlet>
+	<portlet>
+		<portlet-name>cookie-transfor-data-by-jquery-pub</portlet-name>
+		<icon>/icon.png</icon>
+		<header-portlet-css>/css/main.css</header-portlet-css>
+		<footer-portlet-javascript>
+			/js/main.js
+		</footer-portlet-javascript>
+		<footer-portlet-javascript>
+			http://code.jquery.com/jquery-1.4.2.min.js
+		</footer-portlet-javascript>
+		<footer-portlet-javascript>
+			http://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js
+		</footer-portlet-javascript>
+		<css-class-wrapper>
+			cookie-transfor-data-by-jquery-pub-portlet
+		</css-class-wrapper>
+	</portlet>
+	<portlet>
+		<portlet-name>cookie-transfor-data-by-jquery-sub</portlet-name>
+		<icon>/icon.png</icon>
+		<header-portlet-css>/css/main.css</header-portlet-css>
+		<footer-portlet-javascript>
+			/js/main.js
+		</footer-portlet-javascript>
+		<footer-portlet-javascript>
+			http://code.jquery.com/jquery-1.4.2.min.js
+		</footer-portlet-javascript>
+		<footer-portlet-javascript>
+			http://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js
+		</footer-portlet-javascript>
+		<css-class-wrapper>
+			cookie-transfor-data-by-jquery-sub-portlet
+		</css-class-wrapper>
+	</portlet>
+	<portlet>
+		<portlet-name>test-publisher</portlet-name>
+		<icon>/icon.png</icon>
+		<header-portlet-css>/css/main.css</header-portlet-css>
+		<footer-portlet-javascript>
+			/js/main.js
+		</footer-portlet-javascript>
+		<css-class-wrapper>test-publisher-portlet</css-class-wrapper>
+	</portlet>
+	<portlet>
+		<portlet-name>test-subscriber</portlet-name>
+		<icon>/icon.png</icon>
+		<header-portlet-css>/css/main.css</header-portlet-css>
+		<footer-portlet-javascript>
+			/js/main.js
+		</footer-portlet-javascript>
+		<css-class-wrapper>test-subscriber-portlet</css-class-wrapper>
+	</portlet>
+	<portlet>
+		<portlet-name>
+			test-cookie-transfer-data-byj-query-pub
+		</portlet-name>
+		<icon>/icon.png</icon>
+		<header-portlet-css>/css/main.css</header-portlet-css>
+		<footer-portlet-javascript>
+			/js/main.js
+		</footer-portlet-javascript>
+		
+		<footer-portlet-javascript>
+			http://code.jquery.com/jquery-1.4.2.min.js
+		</footer-portlet-javascript>
+		<footer-portlet-javascript>
+			http://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js
+		</footer-portlet-javascript>
+		
+		<css-class-wrapper>
+			test-cookie-transfer-data-byj-query-pub-portlet
+		</css-class-wrapper>
+	</portlet>
+	<portlet>
+		<portlet-name>
+			test-cookie-transer-data-byj-query-sub
+		</portlet-name>
+		<icon>/icon.png</icon>
+		<header-portlet-css>/css/main.css</header-portlet-css>
+		<footer-portlet-javascript>
+			/js/main.js
+		</footer-portlet-javascript>
+		<footer-portlet-javascript>
+			http://code.jquery.com/jquery-1.4.2.min.js
+		</footer-portlet-javascript>
+		<footer-portlet-javascript>
+			http://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js
+		</footer-portlet-javascript>
+		<css-class-wrapper>
+			test-cookie-transer-data-byj-query-sub-portlet
+		</css-class-wrapper>
+	</portlet>
+	<role-mapper>
+		<role-name>administrator</role-name>
+		<role-link>Administrator</role-link>
+	</role-mapper>
+	<role-mapper>
+		<role-name>guest</role-name>
+		<role-link>Guest</role-link>
+	</role-mapper>
+	<role-mapper>
+		<role-name>power-user</role-name>
+		<role-link>Power User</role-link>
+	</role-mapper>
+	<role-mapper>
+		<role-name>user</role-name>
+		<role-link>User</role-link>
+	</role-mapper>
+</liferay-portlet-app>
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE display PUBLIC "-//Liferay//DTD Display 6.2.0//EN" "http://www.liferay.com/dtd/liferay-display_6_2_0.dtd">
+
+<display>
+	<category name="category.sample">
+		<portlet id="elearn007-endpointTransferData" />
+		<portlet id="publisher"></portlet>
+		<portlet id="subscriber"></portlet>
+		<portlet id="cookie-transfor-data-by-jquery-pub"></portlet>
+		<portlet id="cookie-transfor-data-by-jquery-sub"></portlet>
+		<portlet id="test-publisher"></portlet>
+		<portlet id="test-subscriber"></portlet>
+		<portlet id="test-cookie-transfer-data-byj-query-pub"></portlet>
+		<portlet id="test-cookie-transer-data-byj-query-sub"></portlet>
+	</category>
+</display>

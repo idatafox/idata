@@ -9,6 +9,37 @@
 		<footer-portlet-javascript>/js/main.js</footer-portlet-javascript>
 		<css-class-wrapper>Elearn007-UserProfileManager-portlet</css-class-wrapper>
 	</portlet>
+	<portlet>
+		<portlet-name>modi-user-profile</portlet-name>
+		<icon>/icon.png</icon>
+		<header-portlet-css>/css/main.css</header-portlet-css>
+		<footer-portlet-javascript>
+			/js/main.js
+		</footer-portlet-javascript>
+		<css-class-wrapper>modi-user-profile-portlet</css-class-wrapper>
+	</portlet>
+	<portlet>
+		<portlet-name>modi-user-parameter-copy</portlet-name>
+		<icon>/icon.png</icon>
+		<header-portlet-css>/css/main.css</header-portlet-css>
+		<footer-portlet-javascript>
+			/js/main.js
+		</footer-portlet-javascript>
+		<css-class-wrapper>
+			modi-user-parameter-copy-portlet
+		</css-class-wrapper>
+	</portlet>
+	<portlet>
+		<portlet-name>elearn007-greeting</portlet-name>
+		<icon>/icon.png</icon>
+		<header-portlet-css>/css/main.css</header-portlet-css>
+		<footer-portlet-javascript>
+			/js/main.js
+		</footer-portlet-javascript>
+		<css-class-wrapper>
+			elearn007-greeting-portlet
+		</css-class-wrapper>
+	</portlet>
 	<role-mapper>
 		<role-name>administrator</role-name>
 		<role-link>Administrator</role-link>
