@@ -1,0 +1,97 @@
+{
+	"layoutTemplateId": "2_columns_ii",
+	"privatePages": [
+		{
+			"columns": [
+				[
+					{
+						"portletId": "58"
+					},
+					
+					     "readme.html",
+				  
+				],
+				[
+					{
+						"portletId": "47"
+					}
+				]
+			],
+			
+			
+			"friendlyURL": "/home",
+			"name": "主页",
+			"title": "Welcome elearn007.com"	
+			
+		},
+		{
+		     
+		     
+		     "columns": [
+				[
+					{
+						"portletId": "56"
+					},
+					
+					     "readme.html",
+				  
+				],
+				[
+					{
+						"portletId": "41"
+					}
+				]
+			],
+			
+			
+			"friendlyURL": "/xhome",
+			"name": "视频库",
+			"title": "XHome"
+		      
+		    
+		},
+		{
+		     
+		     
+		     "columns": [
+				[
+					{
+						"portletId": "56"
+					},
+					
+					     "readme.html",
+				  
+				],
+				[
+					{
+						"portletId": "41"
+					}
+				]
+			],
+			
+			
+			"friendlyURL": "/xcode",
+			"layouts": [
+				{
+					"friendlyURL": "/child-page-1",
+					"name": "Child Page 1",
+					"title": "Child Page 1"
+				},
+				{
+					"friendlyURL": "/child-page-2",
+					"name": "Child Page 2",
+					"title": "Child Page 2"
+				}
+			],
+			"name": "xcode",
+			"title": "xcode"
+		      
+		    
+		}
+		
+		
+		
+		
+		
+	]
+}

@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<!DOCTYPE look-and-feel PUBLIC "-//Liferay//DTD Look and Feel 6.2.0//EN" "http://www.liferay.com/dtd/liferay-look-and-feel_6_2_0.dtd">
+
+<look-and-feel>
+	<compatibility>
+		<version>6.2.1+</version>
+	</compatibility>
+	<theme id="elearn007-start-detail" name="Elearn007 Theme Start detail">
+	  <settings>
+	      <setting key="new-version" value="v2014-001"/>    
+	  </settings>
+	</theme>
+	
+	<theme id="elearn007-start-brief" name="Elearn007 Theme Start brief">
+	  <settings>
+	      <setting key="new-version" value="v2014-002"/>
+	  </settings>
+	</theme>
+	
+	<theme id="elearn007-start" name="Elearn007 Theme Start">
+	
+	  <settings>
+	  
+	     <setting configurable="true"
+             key="slogan"
+             type="textarea"
+             value=""
+           />
+
+          <setting configurable="true"
+             key="display-slogan-footer"
+             type="checkbox"
+             value="true"
+          />
+          
+          
+           <setting
+		        configurable="true"
+		        key="portlet-setup-show-borders-default"
+		        type="checkbox"
+		        value="false"
+		    />
+		    
+		    
+		     <setting
+		        configurable="true"
+		        key="show-site-name-default"
+		        type="checkbox"
+		        value="true"
+            />
+		    <setting
+		        configurable="true"
+		        key="show-site-name-supported"
+		        type="checkbox"
+		        value="true"
+		    />
+	      
+	  </settings>
+	  
+	  
+	   <!-- define color schemes -->
+		   <color-scheme id="01" name="Day">
+	        <css-class>day</css-class>
+	        <color-scheme-images-path>
+	            ${images-path}/color_schemes/${css-class}
+	        </color-scheme-images-path>
+	     </color-scheme>
+    
+		    <color-scheme id="02" name="Night">
+		        <css-class>night</css-class>
+		    </color-scheme>
+	  
+	       <color-scheme id="03" name="elearn007">
+		        <css-class>elearn007</css-class>
+		    </color-scheme>
+	</theme>
+	
+	
+</look-and-feel>

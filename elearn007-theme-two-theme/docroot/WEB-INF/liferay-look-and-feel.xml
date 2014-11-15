@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<!DOCTYPE look-and-feel PUBLIC "-//Liferay//DTD Look and Feel 6.2.0//EN" "http://www.liferay.com/dtd/liferay-look-and-feel_6_2_0.dtd">
+
+<look-and-feel>
+	<compatibility>
+		<version>6.2.1+</version>
+	</compatibility>
+	<theme id="elearn007-two" name="Elearn007 Theme Two">
+	    <settings>
+	      <setting key="new-version" value="v2014-001"/>
+	      
+	       <setting configurable="true"
+             key="slogan"
+             type="textarea"
+             value="hello-girl"
+           />
+
+          <setting configurable="true"
+             key="display-slogan-footer"
+             type="checkbox"
+             value="true"
+          />
+	          
+	  </settings>
+	  
+	  
+	    <color-scheme id="01" name="Day">
+	        <css-class>day</css-class>
+	        <color-scheme-images-path>
+	            ${images-path}/color_schemes/${css-class}
+	        </color-scheme-images-path>
+	     </color-scheme>
+    
+		    <color-scheme id="02" name="Night">
+		        <css-class>night</css-class>
+		    </color-scheme>
+	  
+	       <color-scheme id="03" name="elearn007">
+		        <css-class>elearn007</css-class>
+		    </color-scheme>
+	  
+	  
+	  
+	  
+	</theme>
+</look-and-feel>
