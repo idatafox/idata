@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE layout-templates PUBLIC "-//Liferay//DTD Layout Templates 6.2.0//EN" "http://www.liferay.com/dtd/liferay-layout-templates_6_2_0.dtd">
+
+<layout-templates>
+	<custom>
+		<layout-template id="elearn007_theme_five"
+			name="Elearn007 Theme Five">
+			<template-path>/elearn007_theme_five.tpl</template-path>
+			<wap-template-path>
+				/elearn007_theme_five.wap.tpl
+			</wap-template-path>
+			<thumbnail-path>/elearn007_theme_five.png</thumbnail-path>
+		</layout-template>
+		<layout-template id="fivecolumns121" name="FiveColumns-1-2-1">
+			<template-path>/fivecolumns121.tpl</template-path>
+			<wap-template-path>
+				/fivecolumns121.wap.tpl
+			</wap-template-path>
+			<thumbnail-path>/fivecolumns121.png</thumbnail-path>
+		</layout-template>
+	</custom>
+</layout-templates>
