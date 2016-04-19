@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE layout-templates PUBLIC "-//Liferay//DTD Layout Templates 6.2.0//EN" "http://www.liferay.com/dtd/liferay-layout-templates_6_2_0.dtd">
+
+<layout-templates>
+	<custom>
+		<layout-template id="elearn007_theme_four"
+			name="Elearn007 Theme Four">
+			<template-path>/elearn007_theme_four.tpl</template-path>
+			<wap-template-path>
+				/elearn007_theme_four.wap.tpl
+			</wap-template-path>
+			<thumbnail-path>/elearn007_theme_four.png</thumbnail-path>
+		</layout-template>
+		<layout-template id="me212" name="Me-2-1-2">
+			<template-path>/me212.tpl</template-path>
+			<wap-template-path>/me212.wap.tpl</wap-template-path>
+			<thumbnail-path>/me212.png</thumbnail-path>
+		</layout-template>
+	</custom>
+</layout-templates>
